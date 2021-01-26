@@ -1,0 +1,69 @@
+/* Default content styles */
+
+.primo-copy {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+.primo-copy h1 {
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+.primo-copy h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+.primo-copy ol {
+    list-style-type: decimal;
+  }
+
+.primo-copy ul {
+    list-style-position: inside;
+    list-style-type: disc;
+  }
+
+.primo-copy ul p {
+      display: inline;
+    }
+
+.primo-copy ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+  }
+
+.primo-copy a {
+    --tw-text-opacity: 1;
+    color: rgba(37, 99, 235, var(--tw-text-opacity));
+    text-decoration: underline;
+  }
+
+.primo-copy blockquote {
+    padding: 1.5rem;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+.primo-copy mark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+  }
+
+@media (min-width: 1024px) {
+    .primo-copy h1 {
+      font-size: 3rem;
+      line-height: 1;
+    }
+
+    .primo-copy h2 {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  }
